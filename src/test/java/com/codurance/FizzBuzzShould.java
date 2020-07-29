@@ -22,7 +22,13 @@ public class FizzBuzzShould {
       "2, 2",
       "3, Fizz",
       "4, 4",
-      "5, Buzz"
+      "5, Buzz",
+      "6, Fizz",
+      "7, 7",
+      "8, 8",
+      "9, Fizz",
+      "10, Buzz",
+      "15, FizzBuzz"
   })
   void return_correct_output_for_input(int input, String output) {
     assertEquals(output, fizzBuzz.convert(input));
