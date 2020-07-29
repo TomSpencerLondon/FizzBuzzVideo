@@ -11,8 +11,6 @@ public class FizzBuzz {
     if (input < 1){
       return "0";
     }
-
-
     appendIf(p -> isDivisibleBy(input, p), result);
 
     if (result.length() == 0){
